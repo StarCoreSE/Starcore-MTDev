@@ -158,7 +158,6 @@
     <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
     <SimplifiedSimulation>false</SimplifiedSimulation>
-    <SuppressedWarnings />
     <EnablePcuTrading>true</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
     <EnableSelectivePhysicsUpdates>true</EnableSelectivePhysicsUpdates>
@@ -807,16 +806,6 @@ SiegeCooldownTimer=18000
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
-    <ModItem FriendlyName="StarCore Skybox - Dense">
-      <Name>3166553368.sbm</Name>
-      <PublishedFileId>3166553368</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="SCCoordinateOutput">
-      <Name>2975063364.sbm</Name>
-      <PublishedFileId>2975063364</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="WeaponCore-StarCore">
       <Name>3149625043.sbm</Name>
       <PublishedFileId>3149625043</PublishedFileId>
@@ -837,9 +826,9 @@ SiegeCooldownTimer=18000
       <PublishedFileId>2824324850</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="TIOStarcore">
-      <Name>3019366671.sbm</Name>
-      <PublishedFileId>3019366671</PublishedFileId>
+    <ModItem FriendlyName="TIOStarcore-Dev">
+      <Name>3017842205.sbm</Name>
+      <PublishedFileId>3017842205</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Text HUD API">
@@ -872,9 +861,24 @@ SiegeCooldownTimer=18000
       <PublishedFileId>3149645583</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Starcore-MA-Weapons-Natemod-Dev">
+      <Name>3017832153.sbm</Name>
+      <PublishedFileId>3017832153</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="StarCore Tournament Weapon Category">
       <Name>2785856511.sbm</Name>
       <PublishedFileId>2785856511</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="StarCore Skybox - Dense">
+      <Name>3166553368.sbm</Name>
+      <PublishedFileId>3166553368</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
+      <Name>2756825813.sbm</Name>
+      <PublishedFileId>2756825813</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore Serpent Arms Heavy Metal">
@@ -895,11 +899,6 @@ SiegeCooldownTimer=18000
     <ModItem FriendlyName="Starcore Paperdoll">
       <Name>2846569122.sbm</Name>
       <PublishedFileId>2846569122</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Starcore MA weapons natebranch Supar Sekrit AutoMcDognut Bootleg">
-      <Name>2953252400.sbm</Name>
-      <PublishedFileId>2953252400</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="StarCore Logo Pack">
@@ -952,11 +951,6 @@ SiegeCooldownTimer=18000
       <PublishedFileId>2414738008</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Starcore Sharetrack - Ship Points">
-      <Name>2756825813.sbm</Name>
-      <PublishedFileId>2756825813</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="SCThrusterFX">
       <Name>3033050686.sbm</Name>
       <PublishedFileId>3033050686</PublishedFileId>
@@ -975,6 +969,11 @@ SiegeCooldownTimer=18000
     <ModItem FriendlyName="SCDefenseBlocks">
       <Name>3023988614.sbm</Name>
       <PublishedFileId>3023988614</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="SCCoordinateOutput">
+      <Name>2975063364.sbm</Name>
+      <PublishedFileId>2975063364</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="SCCleanModCategories">
@@ -1007,9 +1006,9 @@ SiegeCooldownTimer=18000
       <PublishedFileId>1359618037</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="REEECore-2024">
-      <Name>3149648890.sbm</Name>
-      <PublishedFileId>3149648890</PublishedFileId>
+    <ModItem FriendlyName="REEECore-Dev">
+      <Name>3017853482.sbm</Name>
+      <PublishedFileId>3017853482</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="PickmeRevengeance + FactionControl">
@@ -1067,9 +1066,9 @@ SiegeCooldownTimer=18000
       <PublishedFileId>2953725395</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Heavy-Assault-Systems-2024">
-      <Name>3149644542.sbm</Name>
-      <PublishedFileId>3149644542</PublishedFileId>
+    <ModItem FriendlyName="Heavy-Assault-Systems-Dev">
+      <Name>3017853784.sbm</Name>
+      <PublishedFileId>3017853784</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Font: Mono Color">
