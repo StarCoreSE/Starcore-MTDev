@@ -1,4 +1,10 @@
-[16:54:18.782] [T1] [DS=False] DEBUG | Log Started
-[16:54:19.472] [T1] [DS=False] ERROR | Error in UpdateAfterSim: Object reference not set to an instance of an object.
-   at BlockRestrictions.BlockRestrictions.CheckToolbarLocal(Boolean force)
-   at BlockRestrictions.BlockRestrictions.UpdateAfterSimulation()
+[23:49:37.325] [T1] [DS=False] DEBUG | Log Started
+[23:49:37.346] [T1] [DS=False] DEBUG | BeforeStart() - Checking Group Settings:
+
+BeforeStart() - Checking Config for saved settings
+
+BeforeStart() - Checking Entity Components
+
+Finished with settings
+
+
