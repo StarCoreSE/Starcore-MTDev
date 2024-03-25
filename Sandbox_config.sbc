@@ -8,7 +8,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>16</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -79,7 +79,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -145,6 +145,11 @@
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
   </Settings>
   <Mods>
+    <ModItem FriendlyName="SC_RelativeTopSpeed_Logarithmic_Angular">
+      <Name>3199814872.sbm</Name>
+      <PublishedFileId>3199814872</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Anomaly_Solaris_Hypernautics-Dev">
       <Name>3191044206.sbm</Name>
       <PublishedFileId>3191044206</PublishedFileId>
@@ -355,11 +360,6 @@
       <PublishedFileId>1965654081</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Relative Top Speed">
-      <Name>1359618037.sbm</Name>
-      <PublishedFileId>1359618037</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="REEECore-Dev">
       <Name>3017853482.sbm</Name>
       <PublishedFileId>3017853482</PublishedFileId>
@@ -475,7 +475,7 @@
       <PublishedFileId>806331071</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="BuildInfo (extra block+terminal info, air leak finder)">
+    <ModItem FriendlyName="Build Info">
       <Name>514062285.sbm</Name>
       <PublishedFileId>514062285</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -567,5 +567,5 @@
     </ModItem>
   </Mods>
   <SessionName>Starcore MTDev</SessionName>
-  <LastSaveTime>2024-03-03T23:49:56.5529158-06:00</LastSaveTime>
+  <LastSaveTime>2024-03-24T20:36:47.1088198-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
