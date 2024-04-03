@@ -51,7 +51,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>16</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -122,7 +122,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -806,46 +806,6 @@ SiegeCooldownTimer=18000
     </PlayerToFactionsVis>
   </Factions>
   <Mods>
-    <ModItem FriendlyName="Starcore_Sharetrack-Dev">
-      <Name>3200752185.sbm</Name>
-      <PublishedFileId>3200752185</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="REEECore-Dev">
-      <Name>3017853482.sbm</Name>
-      <PublishedFileId>3017853482</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="SC_RelativeTopSpeed_Logarithmic_Angular">
-      <Name>3199814872.sbm</Name>
-      <PublishedFileId>3199814872</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Anomaly_Solaris_Hypernautics-Dev">
-      <Name>3191044206.sbm</Name>
-      <PublishedFileId>3191044206</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="SC_HitSounds">
-      <Name>3173935498.sbm</Name>
-      <PublishedFileId>3173935498</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="TaitMod_Fletcher_Dev">
-      <Name>3167028629.sbm</Name>
-      <PublishedFileId>3167028629</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Starcore_Pointslist_Dev">
-      <Name>3017849106.sbm</Name>
-      <PublishedFileId>3017849106</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Skybox Gallente HD + Milky Way 16k">
-      <Name>3158604318.sbm</Name>
-      <PublishedFileId>3158604318</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
     <ModItem FriendlyName="WeaponCore-StarCore">
       <Name>3149625043.sbm</Name>
       <PublishedFileId>3149625043</PublishedFileId>
@@ -876,6 +836,11 @@ SiegeCooldownTimer=18000
       <PublishedFileId>758597413</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="TaitMod_Fletcher_Dev">
+      <Name>3167028629.sbm</Name>
+      <PublishedFileId>3167028629</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Systems Highlight">
       <Name>3037494862.sbm</Name>
       <PublishedFileId>3037494862</PublishedFileId>
@@ -896,6 +861,21 @@ SiegeCooldownTimer=18000
       <PublishedFileId>3018817811</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Starcore_Sharetrack-Dev">
+      <Name>3200752185.sbm</Name>
+      <PublishedFileId>3200752185</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Starcore_Serpent_Arms_Heavy_Metal-Dev">
+      <Name>3211537839.sbm</Name>
+      <PublishedFileId>3211537839</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Starcore_Pointslist_Dev">
+      <Name>3017849106.sbm</Name>
+      <PublishedFileId>3017849106</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Starcore-One-Shot-2024">
       <Name>3149645583.sbm</Name>
       <PublishedFileId>3149645583</PublishedFileId>
@@ -909,11 +889,6 @@ SiegeCooldownTimer=18000
     <ModItem FriendlyName="StarCore Tournament Weapon Category">
       <Name>2785856511.sbm</Name>
       <PublishedFileId>2785856511</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Starcore Serpent Arms Heavy Metal">
-      <Name>2683126590.sbm</Name>
-      <PublishedFileId>2683126590</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Starcore Reaction Control System">
@@ -976,6 +951,11 @@ SiegeCooldownTimer=18000
       <PublishedFileId>2414738008</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="Skybox Gallente HD + Milky Way 16k">
+      <Name>3158604318.sbm</Name>
+      <PublishedFileId>3158604318</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="SCThrusterFX">
       <Name>3033050686.sbm</Name>
       <PublishedFileId>3033050686</PublishedFileId>
@@ -1021,9 +1001,24 @@ SiegeCooldownTimer=18000
       <PublishedFileId>3021448970</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
+    <ModItem FriendlyName="SC_RelativeTopSpeed_Logarithmic_Angular">
+      <Name>3199814872.sbm</Name>
+      <PublishedFileId>3199814872</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="SC_HitSounds">
+      <Name>3173935498.sbm</Name>
+      <PublishedFileId>3173935498</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="Rich HUD Master">
       <Name>1965654081.sbm</Name>
       <PublishedFileId>1965654081</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="REEECore-Dev">
+      <Name>3017853482.sbm</Name>
+      <PublishedFileId>3017853482</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="PickmeRevengeance + FactionControl">
@@ -1174,6 +1169,11 @@ SiegeCooldownTimer=18000
     <ModItem FriendlyName="AQD - Armor Expansion">
       <Name>1939935505.sbm</Name>
       <PublishedFileId>1939935505</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
+    <ModItem FriendlyName="Anomaly_Solaris_Hypernautics-Dev">
+      <Name>3191044206.sbm</Name>
+      <PublishedFileId>3191044206</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Animation Engine">
