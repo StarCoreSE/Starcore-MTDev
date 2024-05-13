@@ -8,7 +8,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>16</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -79,7 +79,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -107,12 +107,14 @@
     <DepositsCountCoefficient>2</DepositsCountCoefficient>
     <DepositSizeDenominator>30</DepositSizeDenominator>
     <WeatherSystem>false</WeatherSystem>
+    <WeatherLightingDamage>false</WeatherLightingDamage>
     <HarvestRatioMultiplier>1</HarvestRatioMultiplier>
     <TradeFactionsCount>15</TradeFactionsCount>
     <StationsDistanceInnerRadius>10000000</StationsDistanceInnerRadius>
     <StationsDistanceOuterRadiusStart>10000000</StationsDistanceOuterRadiusStart>
     <StationsDistanceOuterRadiusEnd>30000000</StationsDistanceOuterRadiusEnd>
     <EconomyTickInSeconds>1200</EconomyTickInSeconds>
+    <NPCGridClaimTimeLimit>120</NPCGridClaimTimeLimit>
     <SimplifiedSimulation>false</SimplifiedSimulation>
     <EnablePcuTrading>true</EnablePcuTrading>
     <FamilySharing>true</FamilySharing>
@@ -143,6 +145,12 @@
     <PrefetchShapeRayLengthLimit>15000</PrefetchShapeRayLengthLimit>
     <EnemyTargetIndicatorDistance>20</EnemyTargetIndicatorDistance>
     <EnableTrashSettingsPlatformOverride>true</EnableTrashSettingsPlatformOverride>
+    <MinimumWorldSize>0</MinimumWorldSize>
+    <MaxCargoBags>100</MaxCargoBags>
+    <TrashCleanerCargoBagsMaxLiveTime>30</TrashCleanerCargoBagsMaxLiveTime>
+    <ScrapEnabled>true</ScrapEnabled>
+    <BroadcastControllerMaxOfflineTransmitDistance>200</BroadcastControllerMaxOfflineTransmitDistance>
+    <TemporaryContainers>true</TemporaryContainers>
   </Settings>
   <Mods>
     <ModItem FriendlyName="WeaponCore-StarCore">
@@ -185,7 +193,7 @@
       <PublishedFileId>3037494862</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="StarCorePracticeAI">
+    <ModItem FriendlyName="SCPracticeAI">
       <Name>3024311955.sbm</Name>
       <PublishedFileId>3024311955</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -340,7 +348,7 @@
       <PublishedFileId>3021448970</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="SC_RelativeTopSpeed_Logarithmic_Angular">
+    <ModItem FriendlyName="SC_RelativeTopSpeed_Logarithmic_Angular-Dev">
       <Name>3199814872.sbm</Name>
       <PublishedFileId>3199814872</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -565,7 +573,7 @@
       <PublishedFileId>2956906605</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
-    <ModItem FriendlyName="Starcore Modular Assemblies">
+    <ModItem FriendlyName="Modular Assemblies">
       <Name>3130656054.sbm</Name>
       <PublishedFileId>3130656054</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
@@ -577,5 +585,5 @@
     </ModItem>
   </Mods>
   <SessionName>Starcore MTDev</SessionName>
-  <LastSaveTime>2024-03-24T20:36:47.1088198-05:00</LastSaveTime>
+  <LastSaveTime>2024-05-13T17:08:17.1146747-05:00</LastSaveTime>
 </MyObjectBuilder_WorldConfiguration>
