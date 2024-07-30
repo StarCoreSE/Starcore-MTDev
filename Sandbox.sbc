@@ -51,7 +51,7 @@
     <AssemblerEfficiencyMultiplier>1</AssemblerEfficiencyMultiplier>
     <RefinerySpeedMultiplier>1</RefinerySpeedMultiplier>
     <OnlineMode>PUBLIC</OnlineMode>
-    <MaxPlayers>32</MaxPlayers>
+    <MaxPlayers>16</MaxPlayers>
     <MaxFloatingObjects>16</MaxFloatingObjects>
     <TotalBotLimit>32</TotalBotLimit>
     <MaxBackupSaves>0</MaxBackupSaves>
@@ -122,7 +122,7 @@
     <MaxDropContainerRespawnTime>20</MaxDropContainerRespawnTime>
     <EnableTurretsFriendlyFire>true</EnableTurretsFriendlyFire>
     <EnableSubgridDamage>false</EnableSubgridDamage>
-    <SyncDistance>25000</SyncDistance>
+    <SyncDistance>20000</SyncDistance>
     <ExperimentalMode>true</ExperimentalMode>
     <AdaptiveSimulationQuality>true</AdaptiveSimulationQuality>
     <EnableVoxelHand>false</EnableVoxelHand>
@@ -843,6 +843,11 @@ SiegePowerPercentage=0.9
     <dictionary />
   </PlayersDeadInCryopods>
   <Mods>
+    <ModItem FriendlyName="Cast Spectator - StarCore">
+      <Name>3299682578.sbm</Name>
+      <PublishedFileId>3299682578</PublishedFileId>
+      <PublishedServiceName>Steam</PublishedServiceName>
+    </ModItem>
     <ModItem FriendlyName="P.O.M -  XL Blocks [Slopes Update!]">
       <Name>2943729620.sbm</Name>
       <PublishedFileId>2943729620</PublishedFileId>
@@ -1161,11 +1166,6 @@ SiegePowerPercentage=0.9
     <ModItem FriendlyName="Combat Zone Muzzmod">
       <Name>2759080043.sbm</Name>
       <PublishedFileId>2759080043</PublishedFileId>
-      <PublishedServiceName>Steam</PublishedServiceName>
-    </ModItem>
-    <ModItem FriendlyName="Cast Spectator">
-      <Name>2968491433.sbm</Name>
-      <PublishedFileId>2968491433</PublishedFileId>
       <PublishedServiceName>Steam</PublishedServiceName>
     </ModItem>
     <ModItem FriendlyName="Camera Panning - rotate camera view (+reset 1st person character view)">
